@@ -1,3 +1,9 @@
+import sys
+import io
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding="utf-8")
+
 from controller.item_controller import ItemController
 from view.item_view import ItemView
 
