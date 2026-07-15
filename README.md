@@ -47,10 +47,15 @@ ConsoleMVC-JOYUSIK-21044893/
 ## 빌드 및 실행
 
 ### Visual Studio에서 열기 (권장)
+
+> ⚠️ `파일 > 열기 > 프로젝트` 가 아닌 **`파일 > 폴더 열기`** 를 사용합니다.
+> CMake 프로젝트는 .sln 없이 폴더 단위로 열어야 VS가 자동 인식합니다.
+
 1. Visual Studio 실행
-2. `파일 > 열기 > CMake...`
-3. 이 폴더의 `CMakeLists.txt` 선택
-4. `빌드 > 모두 빌드 (F7)`
+2. `파일 > 폴더 열기` 선택
+3. `C:\CRA_USIK\개인프로젝트\ConsoleMVC-JOYUSIK-21044893` 폴더 선택
+4. VS가 `CMakeLists.txt`를 자동 감지하고 구성 시작 (우하단 진행 표시)
+5. 구성 완료 후 상단 실행 대상에서 `ConsoleMVC.exe` 선택 후 ▶ 실행
 
 ### 터미널에서 빌드
 ```powershell
