@@ -1,5 +1,11 @@
 build/
 data/*.json
+ConsoleMVC/data/*.json
 .DS_Store
 *.user
 .vs/
+x64/
+Debug/
+Release/
+*.VC.db
+*.VC.opendb
